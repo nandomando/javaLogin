@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/drawable/back_gradient_color.xml" value="0.1" />
+        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/drawable/bottom_app_bar.xml" value="0.1995" />
         <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/drawable/button_background_blue.xml" value="0.1" />
+        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/drawable/color_control.xml" value="0.1875" />
         <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/drawable/ic_add_img.xml" value="0.1" />
         <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/drawable/ic_back_img.xml" value="0.1" />
         <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/drawable/ic_facebook.xml" value="0.1" />
@@ -14,10 +17,21 @@
         <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/drawable/ic_register_hero.xml" value="0.1" />
         <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/drawable/ic_side_bg.xml" value="0.1" />
         <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/drawable/layout_loading_dialog.xml" value="0.1975" />
+        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/layout/activity_book.xml" value="0.15081521739130435" />
         <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/layout/activity_create_account.xml" value="0.23233695652173914" />
-        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/layout/activity_home.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.24124513618677043" />
         <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/layout/activity_profile.xml" value="0.15081521739130435" />
+        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/layout/activity_stats.xml" value="0.15081521739130435" />
+        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/layout/bottom_app_bar.xml" value="0.161231884057971" />
         <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/layout/custom_dialog.xml" value="0.4" />
+        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/layout/fragment_1.xml" value="0.25" />
+        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/layout/fragment_book.xml" value="0.1" />
+        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/layout/fragment_stats.xml" value="0.264" />
+        <entry key="..\:/Users/ferna/code/MyApplication/app/src/main/res/menu/bottom_menu.xml" value="0.2" />
       </map>
     </option>
   </component>

@@ -112,8 +112,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:backgroundTint="@color/register_bk_color"
-                            android:textColor="@color/colorPrimary"
-                            android:text="Submit" />
+                            android:text="Submit"
+                            android:textColor="@color/colorPrimary" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <!--                    <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton-->

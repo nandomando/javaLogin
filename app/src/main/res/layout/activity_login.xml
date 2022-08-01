@@ -51,20 +51,23 @@
                     style="@style/modifiedEditText"
                     android:hint="@string/login_email_hint"
                     android:inputType="textEmailAddress"
-                    android:maxLines="1" />
+                    android:maxLines="1"
+
+                    />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/textInputPassword"
                 style="@style/parent"
-                android:layout_marginTop="@dimen/loginViewsMargin">
-
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                >
                 <EditText
                     android:id="@+id/editTextPasswordLogin"
                     style="@style/modifiedEditText"
                     android:hint="@string/login_password_hint"
                     android:inputType="textPassword"
-                    android:maxLines="1" />
+                    android:maxLines="1"
+                    />
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
@@ -73,8 +76,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/register_bk_color"
                 android:text="Log in"
-                android:textColor="@color/colorPrimary"
-                />
+                android:textColor="@color/colorPrimary" />
+
             <TextView
                 style="@style/viewParent"
                 android:layout_gravity="end"
@@ -82,16 +85,16 @@
                 android:text="Forgot Password?"
                 android:textColor="@color/primaryTextColor"
                 android:textSize="@dimen/newsMoreTextSize" />x
-<!--            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton-->
-<!--                android:id="@+id/cirLoginButton"-->
-<!--                style="@style/loginButton"-->
-<!--                android:layout_gravity="center_horizontal"-->
-<!--                android:layout_marginTop="@dimen/loginViewsMargin"-->
-<!--                android:text="Login"-->
-<!--                app:initialCornerAngle="27dp"-->
-<!--                app:spinning_bar_color="#FFF"-->
-<!--                app:spinning_bar_padding="6dp"-->
-<!--                app:spinning_bar_width="4dp" />-->
+            <!--            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton-->
+            <!--                android:id="@+id/cirLoginButton"-->
+            <!--                style="@style/loginButton"-->
+            <!--                android:layout_gravity="center_horizontal"-->
+            <!--                android:layout_marginTop="@dimen/loginViewsMargin"-->
+            <!--                android:text="Login"-->
+            <!--                app:initialCornerAngle="27dp"-->
+            <!--                app:spinning_bar_color="#FFF"-->
+            <!--                app:spinning_bar_padding="6dp"-->
+            <!--                app:spinning_bar_width="4dp" />-->
 
             <TextView
                 style="@style/parent"
@@ -175,3 +178,8 @@
         android:src="@drawable/ic_add_img" />
 
 </RelativeLayout>
+
+
+
+<!--    app:hintTextAppearance="@color/darkTextColor"-->
+<!--    android:textColorHint="@color/darkTextColor"-->
