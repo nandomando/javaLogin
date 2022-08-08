@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheet"
+    android:background="@drawable/corner_shape"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/name_exercise_field"
+                style="@style/parent"
+                android:layout_marginTop="20dp">
+
+                <EditText
+                    android:id="@+id/name_exercise_input"
+                    style="@style/modifiedEditText"
+                    android:hint="Exercise"
+                    android:inputType="text"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/weight_exercise_field"
+                style="@style/parent">
+
+                <EditText
+                    android:id="@+id/weight_exercise_input"
+                    style="@style/modifiedEditText"
+                    android:hint="Weight"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/material_motion_duration_long_1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingRight="7dp"
+                        android:text="Sets" />
+
+                    <Button
+                        android:id="@+id/decrease_sets_btn"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:onClick="decreaseInteger"
+                        android:padding="0dp"
+                        android:text="-"
+                        android:backgroundTint="@color/register_bk_color"
+                        />
+
+                    <TextView
+                        android:id="@+id/numberOfSets"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="0dp"
+                        android:text="0"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <Button
+                        android:id="@+id/increase_sets_btn"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:onClick="increaseInteger"
+                        android:padding="0dp"
+                        android:text="+"
+                        android:backgroundTint="@color/register_bk_color"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/material_motion_duration_long_1"
+                    android:gravity="end">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingRight="7dp"
+                        android:text="Reps" />
+
+                    <Button
+                        android:id="@+id/decrease_reps_btn"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:onClick="decreaseInteger"
+                        android:padding="0dp"
+                        android:text="-"
+                        android:backgroundTint="@color/register_bk_color"
+                        />
+
+                    <TextView
+                        android:id="@+id/numberOfReps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginBottom="0dp"
+                        android:text="0"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+
+                        />
+
+                    <Button
+                        android:id="@+id/increase_reps_btn"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:onClick="increaseInteger"
+                        android:padding="0dp"
+                        android:text="+"
+                        android:backgroundTint="@color/register_bk_color"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/save_exercise_btn"
+                    android:layout_width="185dp"
+                    android:layout_height="35dp"
+                    android:text="Save"
+                    android:backgroundTint="@color/register_bk_color"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

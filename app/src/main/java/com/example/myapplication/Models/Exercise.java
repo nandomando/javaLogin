@@ -3,16 +3,9 @@ package com.example.myapplication.Models;
 public class Exercise {
 
     private String name;
-    private int weight;
-    private int sets;
-    private int reps;
-
-    public Exercise(String name, int weight, int sets, int reps) {
-        this.name = name;
-        this.weight = weight;
-        this.sets = sets;
-        this.reps = reps;
-    }
+    private String weight;
+    private String sets;
+    private String reps;
 
     public String getName() {
         return name;
@@ -22,27 +15,36 @@ public class Exercise {
         this.name = name;
     }
 
-    public int getWeight() {
+    public String getWeight() {
         return weight;
     }
 
-    public void setWeight(int weight) {
+    public void setWeight(String weight) {
         this.weight = weight;
     }
 
-    public int getSets() {
+    public String getSets() {
         return sets;
     }
 
-    public void setSets(int sets) {
+    public void setSets(String sets) {
         this.sets = sets;
     }
 
-    public int getReps() {
+    public String getReps() {
         return reps;
     }
 
-    public void setReps(int reps) {
+    public void setReps(String reps) {
         this.reps = reps;
     }
+
+    public Exercise(String name, String weight, String sets, String reps) {
+        this.name = name;
+        this.weight = weight;
+        this.sets = sets;
+        this.reps = reps;
+    }
+
+
 }
